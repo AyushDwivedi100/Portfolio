@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+}
+.front-page{
+    background-color:red;
+    width:100vw;
+    height:100vh;
+}
+.about-me{
+    background-color:green;
+}.skills{
+    background-color:yellow;
+}.projects{
+    background-color:blue;
+}.contact-me{
+    background-color:orange;
+}
