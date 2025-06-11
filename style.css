@@ -49,6 +49,19 @@ body{
 }
 .details{
     background-color:pink;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+}
+.photo{
+    display:flex;
+    align-items:center;
+    justify-content:right;
+}
+.photo img{
+    border-radius:50%;
+    background-color: grey;
+    overflow:clip;
+    overflow-clip-margin:content-box;
 }
 .about-me{
     background-color:green;
