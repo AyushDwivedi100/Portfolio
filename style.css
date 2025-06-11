@@ -10,9 +10,45 @@ body{
     grid-template-rows: repeat(5, 1fr);
 }
 .front-page{
-    background-color:red;
     width:100vw;
     height:100vh;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 20vh 80vh;
+}
+.navbar{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.name{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:2rem;
+    transform:translateX(-10%);
+}
+.nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+    font-size:1.5rem;
+    height:100%;
+}
+.nav ul li a{
+    text-decoration:none;
+    color:black;
+}
+.nav ul li a:hover{
+    color:grey;
+    text-decoration:underline;
+    text-underline-offset:1rem;
+    transition:all 300ms ease;
+    cursor:pointer;
+}
+.details{
+    background-color:pink;
 }
 .about-me{
     background-color:green;
