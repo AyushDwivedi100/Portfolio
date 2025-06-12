@@ -3,6 +3,7 @@
     padding:0;
     box-sizing:border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     display:grid;
@@ -34,11 +35,12 @@ body{
 .nav ul{
     list-style:none;
     display:flex;
-    justify-content:center;
+    justify-content:space-evenly;
     align-items:center;
     gap:2rem;
     font-size:1.5rem;
     height:100%;
+    padding: 0rem 13rem 0rem 3rem;
 }
 .nav ul li a{
     text-decoration:none;
@@ -65,6 +67,8 @@ body{
     background-color: grey;
     overflow:clip;
     overflow-clip-margin:content-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: whitesmoke;
 }
 .intro{
     align-content:center;
@@ -91,6 +95,8 @@ body{
     background-color: white;
     position: relative;
     transform:translateX(60%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: whitesmoke;
 }
 .intro-button1:hover{
     cursor:pointer;
@@ -106,6 +112,7 @@ body{
     transform:translateX(60%);background-color:black;
     color:white;
     margin-left: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .intro-button2:hover{
     background-color:white;
@@ -163,11 +170,13 @@ body{
 }
 .about-me-info-card-container-experience-card,
 .about-me-info-card-container-education-card{
-    border:0.1rem solid gray;
+    border:0.1rem solid rgb(160, 160, 160);
     border-radius: 2rem;
     padding:1.5rem;
     align-items:center;
     justify-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: whitesmoke;
 }
 .about-me-info-card-container-experience-card p,
 .about-me-info-card-container-education-card p{
@@ -211,11 +220,13 @@ body{
 }
 .skills-card-container-currently-practicing-languages,
 .skills-card-container-currently-practicing-tools{
-    border:0.1rem solid gray;
+    border:0.1rem solid rgb(160, 160, 160);
     border-radius:2rem;
     align-items:center;
     display: grid;
     grid-template-columns:1fr 1fr;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: whitesmoke;
 }
 .skills-card-container-currently-practicing-tools{
     grid-template-rows: repeat(4,1fr);
@@ -238,11 +249,13 @@ body{
 .skills-learning-card{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1.5fr;
-    border:0.1rem solid grey;
+    border:0.1rem solid rgb(160, 160, 160);
     border-radius:2rem;
     align-items:center;
     justify-items:center;
     margin:0rem 13rem 5rem 13rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: whitesmoke;
 }
 .skills-learning-card h1{
     grid-column: 1 / -1;
@@ -252,7 +265,59 @@ body{
     align-items: center;
 }
 .projects{
-    background-color:blue;
+    display:grid;
+    grid-template-rows:22% 78%;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+.projects-header{
+    justify-items:center;
+    align-content:flex-end;
+}
+.projects-header h1{
+    font-size:3rem;
+    margin-top: 0.2rem;
+}
+.projects-header p{
+    color:grey;
+}
+.projects-content{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:1rem;
+    padding:2rem 13rem 7rem 13rem;
+
+}
+.projects-content-card{
+    background-color: whitesmoke;
+    border:0.1rem solid rgb(160, 160, 160);
+    border-radius:2rem;
+    padding:1.5rem;
+    justify-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.projects-content-card-image-container1{
+    content: url(portfolio.png.webp);
+    width: 70%;
+    border-radius:2rem;
+}
+.projects-content-card h2{
+    font-size:1.75rem;
+    padding: 1rem;
+}
+.projects button{
+    padding:1rem;
+    border-radius:2rem;
+    background-color: white;
+    width: 8rem;
+    border:0.1rem solid rgb(160, 160, 160);
+    margin-left: 0.5rem;
+}
+.projects button:hover{
+    cursor:pointer;
+    background-color: black;
+    color: white;
+    transition: all 300ms ease;
 }
 .contact-me{
     display:grid;
@@ -278,27 +343,27 @@ body{
 .contact-me-links-container{
     display:flex;
     gap:2rem;
-    border:0.1rem solid grey;
+    border:0.1rem solid rgb(160, 160, 160);
     border-radius: 2rem;
     padding: 2rem;
     margin-top:2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: whitesmoke;
 }
 .contact-me-links-container a{
     text-decoration:none;
     color:black;
-}
-.contact-me-links-container h3{
     font-size:1.5rem;
 }
-.contact-me-links-container h3:hover{
-    color:grey;
-    cursor:pointer;
+.contact-me-links-container h3{
+    font-size:2rem;
 }
 .contact-me-links-container a:hover{
     color:grey;
     text-decoration:underline;
     text-underline-offset:1rem;
     transition:all 300ms ease;
+    cursor:pointer;
 }
 .contact-me-footer{
     justify-items: center;
