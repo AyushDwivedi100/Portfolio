@@ -301,6 +301,16 @@ body{
     width: 70%;
     border-radius:2rem;
 }
+.projects-content-card-image-container2{
+    content: url(amazonuiclone.png);
+    width: 70%;
+    border-radius:2rem;
+}
+.projects-content-card-image-container3{
+    content: url(amazonuiclone.png);
+    width: 70%;
+    border-radius:2rem;
+}
 .projects-content-card h2{
     font-size:1.75rem;
     padding: 1rem;
