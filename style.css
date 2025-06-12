@@ -253,6 +253,53 @@ body{
 }
 .projects{
     background-color:blue;
-}.contact-me{
-    background-color:orange;
+}
+.contact-me{
+    display:grid;
+    grid-template-rows:35% 45% 10% 10%;
+    grid-template-columns:1fr;
+    justify-content: center;
+}
+.contact-me-header{
+    justify-items:center;
+    align-content:flex-end;
+}
+.contact-me-header h1{
+    font-size:3rem;
+    margin-top: 0.2rem;
+    
+}
+.contact-me-header p{
+    color:grey;
+}
+.contact-me-links{
+    justify-items: center;
+}
+.contact-me-links-container{
+    display:flex;
+    gap:2rem;
+    border:0.1rem solid grey;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-top:2rem;
+}
+.contact-me-links-container a{
+    text-decoration:none;
+    color:black;
+}
+.contact-me-links-container h3{
+    font-size:1.5rem;
+}
+.contact-me-links-container h3:hover{
+    color:grey;
+    cursor:pointer;
+}
+.contact-me-links-container a:hover{
+    color:grey;
+    text-decoration:underline;
+    text-underline-offset:1rem;
+    transition:all 300ms ease;
+}
+.contact-me-footer{
+    justify-items: center;
 }
