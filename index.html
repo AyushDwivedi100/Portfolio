@@ -10,13 +10,13 @@
 <body>
     <div class="front-page">
         <div class="navbar">
-            <div class="name"> Ayush Dwivedi</div>
+            <div class="name"><a href="#contact-me">Ayush Dwivedi</a></div>
             <div class="nav">
                 <ul>
                     <li><a href="#about-me">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -28,8 +28,8 @@
                 <p>Hello, I'm</p>
                 <h1>Ayush Dwivedi</h1>
                 <p style="font-size: 1.75rem;">Frontend Developer</p>
-                <button>Download CV</button>
-                <button style="background-color:black; color:white;margin-left: 1.5rem;">Contact Info</button>  
+                <button class="intro-button1">Download CV</button>
+                <button  class="intro-button2" >Contact Info</button>  
             </div>
         </div>
     </div>
@@ -50,7 +50,7 @@
                         <p>Fresher</p>
                         <P>Frontend Development</P>
                     </div>
-                    <div class="about-me-info-car-container-education-card">
+                    <div class="about-me-info-card-container-education-card">
                         <i class="fa-solid fa-user-group"></i>
                         <h2>Education</h2>
                         <p>Bachelor of Technology</p>
@@ -63,9 +63,107 @@
             </div>
         </div>
     </div>
-    <div class="skills"></div>
-    <div class="projects"></div>
-    <div class="contact-me"></div>
-    
+    <div class="skills" id="skills">
+        <div class="skills-header">
+            <p>Explore My</p>
+            <h1>Skills</h1>
+        </div>
+        <div class="skills-card-container">
+            <div class="skills-card-container-currently-practicing-languages">
+                <h1>Currently Practising Languages</h1>
+                <article>
+                    <h3><i class="fa-solid fa-circle-check"></i> HTML</h3>
+                    <p>Intermediate</p>
+                </article>
+                <article>
+                    <h3><i class="fa-solid fa-circle-check"></i> CSS</h3>
+                    <p>Intermediate</p>
+                </article>
+                <article>
+                    <h3><i class="fa-solid fa-circle-check"></i> JAVASCRIPT</h3>
+                    <p>Basic</p>
+                </article>
+                <article>
+                    <h3><i class="fa-solid fa-circle-check"></i> MySQL</h3>
+                    <p>Intermediate</p>
+                </article>
+                <article>
+                    <h3><i class="fa-solid fa-circle-check"></i> Python</h3>
+                    <p>Intermediate</p>
+                </article>
+            </div>
+            <div class="skills-card-container-currently-practicing-tools">
+                <h1>Currently Practising Tools</h1>
+                <article>
+                    <h3><i class="fa-solid fa-circle-check"></i> Git</h3>
+                    <p>Intermediate</p>
+                </article>
+                <article>
+                    <h3><i class="fa-solid fa-circle-check"></i> GitHub</h3>
+                    <p>Intermediate</p>
+                </article>
+                <article style="grid-column:1/-1; padding-right: 23%;">
+                    <h3><i class="fa-solid fa-circle-check"></i> Visual Studio Code</h3>
+                    <p>Experienced</p>
+                </article>
+            </div>
+        </div>
+        <div class="skills-learning-card">
+            <h1>Currently Learning</h1>
+            <article>
+                <h3 styles="padding-left:0.5rem;"><i class="fa-solid fa-circle-check"></i> React</h3>
+            </article>
+            <article>
+                <h3><i class="fa-solid fa-circle-check"></i> Node.js</h3>
+            </article>
+            <article>
+                <h3><i class="fa-solid fa-circle-check"></i> Express.js</h3>
+            </article>
+            <article>
+                <h3><i class="fa-solid fa-circle-check"></i> MongoDB</h3>
+            </article>
+            <article>
+                <h3><i class="fa-solid fa-circle-check"></i> TypeScript</h3>
+            </article>
+            <article>
+                <h3><i class="fa-solid fa-circle-check"></i> Tailwind CSS</h3>
+            </article>
+        </div>
+    </div>
+    <div id="projects"class="projects"></div>
+    <div id="contact-me"class="contact-me">
+        <div class="contact-me-header">\
+            <p>Let's Connect</p>
+            <h1>Contact Me</h1>
+        </div>
+        <div class="contact-me-links">
+            <div class="contact-me-links-container">
+                <article>
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>ayushd100@gmail.com</h3>
+                </article>
+                <article>
+                    <i class="fa-brands fa-whatsapp"></i>                       <h3>+91 8527634265</h3>
+                </article>
+                <article>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <h3><a href="https://www.linkedin.com/in/ayushd100/" target="_blank">LinkedIn</a></h3>
+                </article>
+            </div>
+        </div>
+        <div class="contact-me-nav">
+            <div class="nav">
+                <ul>
+                    <li><a href="#front-page">Home</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact-me-footer">
+            <p>Copyright © 2025 Ayush Dwivedi. All Rights Reserved</p>
+        </div>
+    </div>
 </body>
 </html>

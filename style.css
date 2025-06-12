@@ -27,6 +27,10 @@ body{
     font-size:2rem;
     transform:translateX(-10%);
 }
+.name a{
+    text-decoration: none;
+    color:black;
+}
 .nav ul{
     list-style:none;
     display:flex;
@@ -81,13 +85,34 @@ body{
     margin: 1% 0%;
     font-size: 1.5rem;
 }
-.intro button{
+.intro-button1{
     padding:1rem;
     border-radius:2rem;
     background-color: white;
     position: relative;
     transform:translateX(60%);
 }
+.intro-button1:hover{
+    cursor:pointer;
+    background-color:black;
+    color:white;
+    transition:all 300ms ease;
+}
+.intro-button2{
+    padding:1rem;
+    border-radius:2rem;
+    background-color: black;
+    position: relative;
+    transform:translateX(60%);background-color:black;
+    color:white;
+    margin-left: 1.5rem;
+}
+.intro-button2:hover{
+    background-color:white;
+    color:black;
+    transition:all 300ms ease;
+}
+
 .about-me{
     height: 100vh;
     width: 100vw;
@@ -137,7 +162,7 @@ body{
     padding-right: 13rem;
 }
 .about-me-info-card-container-experience-card,
-.about-me-info-car-container-education-card{
+.about-me-info-card-container-education-card{
     border:0.1rem solid gray;
     border-radius: 2rem;
     padding:1.5rem;
@@ -145,12 +170,13 @@ body{
     justify-items: center;
 }
 .about-me-info-card-container-experience-card p,
-.about-me-info-car-container-education-card p{
-    padding:0.1rem;
+.about-me-info-card-container-education-card p{
+    padding:0.2rem;
+    color:grey;
 }
-.about-me-info-card-container-experience-card h2,
-.about-me-info-car-container-education-card h2{
-    padding:0.1rem;
+.about-me-info-card-container-experience-card h1,
+.about-me-info-card-container-education-card h1{
+    padding:0.2rem;
 }
 .about-me-info-detail{
     padding:0rem 13rem 0rem 4rem;
@@ -158,8 +184,74 @@ body{
     color:grey;
 }
 .skills{
-    background-color:yellow;
-}.projects{
+    height:100vh;
+    width:100vw;
+    display:grid;
+    grid-template-rows: 20% 50% 30%;
+}
+.skills-header{
+    align-content: center;
+    justify-items:center ;
+}
+.skills-header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.skills-header p{
+    color:grey;
+}
+.skills-card-container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap:1rem;
+    align-content: center;
+    justify-content:space-evenly;
+    padding:0rem 13rem;
+}
+.skills-card-container-currently-practicing-languages,
+.skills-card-container-currently-practicing-tools{
+    border:0.1rem solid gray;
+    border-radius:2rem;
+    align-items:center;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.skills-card-container-currently-practicing-tools{
+    grid-template-rows: repeat(4,1fr);
+}
+.skills-card-container-currently-practicing-languages article,
+.skills-card-container-currently-practicing-tools article{
+    padding: 1rem 2rem;
+}
+.skills-card-container-currently-practicing-languages h1,
+.skills-card-container-currently-practicing-tools h1{
+    grid-column: 1 / -1;
+    padding:1rem;
+    color:grey;
+    text-align: center;
+}
+.skills-card-container-currently-practicing-languages p,
+.skills-card-container-currently-practicing-tools p{
+    padding: 0.2rem 0rem 0.2rem 1.5rem;
+}
+.skills-learning-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1.5fr;
+    border:0.1rem solid grey;
+    border-radius:2rem;
+    align-items:center;
+    justify-items:center;
+    margin:0rem 13rem 5rem 13rem;
+}
+.skills-learning-card h1{
+    grid-column: 1 / -1;
+    color:grey;
+}
+.skills-learning-card article{
+    align-items: center;
+}
+.projects{
     background-color:blue;
 }.contact-me{
     background-color:orange;
