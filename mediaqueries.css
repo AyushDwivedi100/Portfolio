@@ -183,6 +183,9 @@
     padding: 0rem 3rem 0rem 0rem;
     justify-self: end;
   }
+  .menu-links.open {
+    z-index: 1;
+  }
   .photo {
     height: 40vh;
     transition: all 300ms ease;
@@ -210,5 +213,39 @@
   .intro button,
   .intro a {
     position: static;
+  }
+  .about-me-header {
+    padding: 1rem;
+    width: 100vw;
+    margin: 0;
+    max-height: 15vh;
+    align-self: center;
+  }
+  .about-me-header h1 {
+    font-size: 2.5rem;
+  }
+  .about-me-image-container {
+    display: none;
+  }
+  .about-me-info-card-container {
+    grid-template-rows: auto auto;
+    padding: 1rem;
+  }
+  .about-me-info-detail {
+    height: auto;
+    width: 100vw;
+    padding: 0;
+  }
+  .about-me-info-detail p {
+    padding: 2rem;
+  }
+  .about-me-info-card-container-experience-card,
+  .about-me-info-card-container-education-card {
+    padding: 1rem;
+  }
+  .about-me-info-card-container-experience-card p,
+  .about-me-info-card-container-education-card p {
+    font-size: 0.88rem;
+    text-align: justify;
   }
 }
