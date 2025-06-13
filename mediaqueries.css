@@ -1,8 +1,7 @@
-@media (max-width: 768px) {
-    body{
-
-        overflow-x: hidden;
-    }
+@media (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
   .navbar {
     display: none;
   }
@@ -84,74 +83,74 @@
     top: 25%;
     right: 38%;
   }
-  .about-me-header{
-    margin-top:10vh;
+  .about-me-header {
+    margin-top: 10vh;
   }
-  .about-me-content{
-    display:flex;
+  .about-me-content {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .about-me-image{
+  .about-me-image {
     display: flex;
     justify-content: center;
   }
-  .about-me-info-card-container{
+  .about-me-info-card-container {
     padding: 3rem;
   }
-  .about-me-info-detail{
+  .about-me-info-detail {
     padding: 0 5rem;
   }
-  .about-me-info-detail p{
+  .about-me-info-detail p {
     text-align: justify;
   }
-  .skills{
-    display:flex;
+  .skills {
+    display: flex;
     flex-direction: column;
   }
-  .skills-header{
-    margin-top:10vh;
+  .skills-header {
+    margin-top: 10vh;
   }
-  .skills-card-container{
+  .skills-card-container {
     display: flex;
     flex-direction: column;
     padding: 3rem 13rem;
   }
-  .skills-learning-card{
+  .skills-learning-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .skills-learning-card article{
-    padding:2rem;
+  .skills-learning-card article {
+    padding: 2rem;
   }
-  .projects{
-    display:flex;
-    flex-direction:column;
-  }
-  .projects-header{
-    margin-top:10vh;
-  }
-  .projects-content{
+  .projects {
     display: flex;
     flex-direction: column;
   }
-  .contact-me{
+  .projects-header {
+    margin-top: 10vh;
+  }
+  .projects-content {
     display: flex;
     flex-direction: column;
   }
-  .contact-me-header{
-    margin-top:10vh;
+  .contact-me {
+    display: flex;
+    flex-direction: column;
   }
-  .contact-me-links{
-    padding:3rem;
+  .contact-me-header {
+    margin-top: 10vh;
   }
-  .contact-me-links-container{
+  .contact-me-links {
+    padding: 3rem;
+  }
+  .contact-me-links-container {
     display: flex;
     flex-wrap: wrap;
   }
   .contact-me-nav,
-  .contact-me-footer{
-    margin-top:10vh;
+  .contact-me-footer {
+    margin-top: 10vh;
   }
 }
