@@ -248,4 +248,59 @@
     font-size: 0.88rem;
     text-align: justify;
   }
+  .skills{
+    display:grid;
+    grid-template-rows: auto auto auto;
+    height: auto;
+  }
+  .skills-header{
+    padding:1rem;
+    margin:0;
+    max-height: 15vh;
+  }
+  .skills-header h1{
+    font-size: 2.5rem;
+  }
+  .skills-card-container{
+    padding:1rem;
+  }
+  .skills-learning-card{
+    margin:0rem 1rem;
+  }
+  .skills-learning-card article{
+    padding:1rem;
+  }
+  .skills-card-container-currently-practicing-languages h1,
+  .skills-card-container-currently-practicing-tools h1{
+    font-size:1rem;
+  }
+  .skills-card-container-currently-practicing-languages h3,
+  .skills-card-container-currently-practicing-tools h3{
+    font-size:1rem;
+  }
+  .skills-card-container-currently-practicing-tools {
+    grid-template-rows: auto;
+  }
+  .projects{
+    width: 100vw;
+  }
+  .projects-header{
+    padding:1rem;
+    margin:0;
+    max-height: 15vh;
+  }
+  .projects-content{
+    padding: 2rem;
+  }
+  .contact-me-header{
+    padding:1rem;
+    margin:0;
+    max-height: 15vh;
+  }
+  .contact-me{
+    width: 100vw;
+  }
+  .contact-me-links{
+    padding: 1rem;
+  }
 }
