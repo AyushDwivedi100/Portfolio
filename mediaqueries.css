@@ -103,4 +103,23 @@
   .about-me-info-detail p{
     text-align: justify;
   }
+  .skills{
+    display:flex;
+    flex-direction: column;
+  }
+  .skills-header{
+    margin-top:10vh;
+  }
+  .skills-card-container{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 13rem;
+  }
+  .skills-learning-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .skills-learning-card article{
+    padding:2rem;
+  }
 }
