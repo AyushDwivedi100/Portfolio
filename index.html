@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayush Dwivedi Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <div class="front-page" id="front-page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <!-- <div class="front-page" id="front-page">
         <div class="navbar">
             <div class="name"><a href="#contact-me">Ayush Dwivedi</a></div>
             <div class="nav">
@@ -20,6 +27,24 @@
                 </ul>
             </div>
         </div>
+        <div class="small-navbar">
+            <div class="name"><a href="#contact-me">Ayush Dwivedi</a></div>
+            <div class="menu">
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <ul>
+                        <li><a href="#about-me" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                        <li><a href="#contact-me" onclick="toggleMenu()">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div class="details">
             <div class="photo">
                 <img src="Ayush_Dwivedi_image.png" alt="Image Not Found">
@@ -28,44 +53,51 @@
                 <p>Hello, I'm</p>
                 <h1>Ayush Dwivedi</h1>
                 <p style="font-size: 1.75rem;">Frontend Developer</p>
-                <button class="intro-button1">Download CV</button>
-                <button  class="intro-button2" >Contact Info</button>
+                <button class="intro-button1" onclick="window.open('./AyushCv.pdf','_blank');">Download CV</button>
+                <button  class="intro-button2" onclick="window.location.href='./#contact-me';" >Contact Info</button>
                 <a href="https://www.linkedin.com/in/ayushd100/"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/AyushDwivedi100?tab=repositories"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="about-me" id="about-me">
-        <div class="about-me-header">
-            <p>Get To Know More</p>
-            <h1>About Me</h1>
+      <div class="about-me-header">
+        <p>Get To Know More</p>
+        <h1>About Me</h1>
+      </div>
+      <div class="about-me-content">
+        <div class="about-me-image">
+          <div class="about-me-image-container"></div>
         </div>
-        <div class="about-me-content">
-            <div class="about-me-image">
-                <div class="about-me-image-container"></div>
+        <div class="about-me-info">
+          <div class="about-me-info-card-container">
+            <div class="about-me-info-card-container-experience-card">
+              <i class="fa-solid fa-medal"></i>
+              <h2>Experience</h2>
+              <p>Fresher</p>
+              <p>Frontend Development</p>
             </div>
-            <div class="about-me-info">
-                <div class="about-me-info-card-container">
-                    <div class="about-me-info-card-container-experience-card">
-                        <i class="fa-solid fa-medal"></i>
-                        <h2>Experience</h2>
-                        <p>Fresher</p>
-                        <P>Frontend Development</P>
-                    </div>
-                    <div class="about-me-info-card-container-education-card">
-                        <i class="fa-solid fa-user-group"></i>
-                        <h2>Education</h2>
-                        <p>Bachelor of Technology</p>
-                        <p>Computer Science and Engineering</p>
-                    </div>
-                </div>
-                <div class="about-me-info-detail">
-                    <p>Hi, I'm Ayush Dwivedi, a passionate Frontend Developer with a keen interest in creating dynamic and responsive web applications. I have a strong foundation in HTML, CSS, and JavaScript, and I'm always eager to learn new technologies and improve my skills. My goal is to build user-friendly interfaces that provide an exceptional user experience.</p>
-                </div>
+            <div class="about-me-info-card-container-education-card">
+              <i class="fa-solid fa-user-group"></i>
+              <h2>Education</h2>
+              <p>Bachelor of Technology</p>
+              <p>Computer Science and Engineering</p>
             </div>
+          </div>
+          <div class="about-me-info-detail">
+            <p>
+              Hi, I'm Ayush Dwivedi, a passionate Frontend Developer with a keen
+              interest in creating dynamic and responsive web applications. I
+              have a strong foundation in HTML, CSS, and JavaScript, and I'm
+              always eager to learn new technologies and improve my skills. My
+              goal is to build user-friendly interfaces that provide an
+              exceptional user experience.
+            </p>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="skills" id="skills">
+    <!-- <div class="skills" id="skills">
         <div class="skills-header">
             <p>Explore My</p>
             <h1>Skills</h1>
@@ -141,14 +173,14 @@
             <div class="projects-content-card">
                 <div class="projects-content-card-image-container1"></div>
                 <h2>Portfolio Website</h2>
-                <button onclick="window.location.href='https://github.com/AyushDwivedi100/Portfolio';">GitHub</button>
-                <button onclick="window.location.href='https://ayushdwivedi100.github.io/Portfolio/';">Live Demo</button>
+                <button onclick="window.open('https://github.com/AyushDwivedi100/Portfolio','_blank');">GitHub</button>
+                <button onclick="window.open('https://ayushdwivedi100.github.io/Portfolio/','_blank');">Live Demo</button>
             </div>
             <div class="projects-content-card">
                 <div class="projects-content-card-image-container2"></div>
                 <h2>Portfolio Website</h2>
-                <button onclick="window.location.href='https://github.com/AyushDwivedi100/AmazonUIClone';">GitHub</button>
-                <button onclick="window.location.href='https://ayushdwivedi100.github.io/AmazonUIClone/';">Live Demo</button>
+                <button onclick="window.open('https://github.com/AyushDwivedi100/AmazonUIClone','_blank');">GitHub</button>
+                <button onclick="window.open('https://ayushdwivedi100.github.io/AmazonUIClone/');">Live Demo</button>
             </div>
             <div class="projects-content-card">
                 <div class="projects-content-card-image-container3"></div>
@@ -189,6 +221,7 @@
         <div class="contact-me-footer">
             <p>Copyright © 2025 Ayush Dwivedi. All Rights Reserved</p>
         </div>
-    </div>
-</body>
+    </div> -->
+    <script src="app.js"></script>
+  </body>
 </html>
