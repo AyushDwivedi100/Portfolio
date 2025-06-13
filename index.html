@@ -16,49 +16,69 @@
   </head>
   <body>
     <div class="front-page" id="front-page">
-        <div class="navbar">
-            <div class="name"><a href="#contact-me">Ayush Dwivedi</a></div>
-            <div class="nav">
-                <ul>
-                    <li><a href="#about-me">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact-me">Contact</a></li>
-                </ul>
-            </div>
+      <div class="navbar">
+        <div class="name"><a href="#contact-me">Ayush Dwivedi</a></div>
+        <div class="nav">
+          <ul>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+          </ul>
         </div>
-        <div class="small-navbar">
-            <div class="name"><a href="#contact-me">Ayush Dwivedi</a></div>
-            <div class="menu">
-                <div class="menu-icon" onclick="toggleMenu()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="menu-links">
-                    <ul>
-                        <li><a href="#about-me" onclick="toggleMenu()">About</a></li>
-                        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
-                        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                        <li><a href="#contact-me" onclick="toggleMenu()">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+      </div>
+      <div class="small-navbar">
+        <div class="name"><a href="#contact-me">Ayush Dwivedi</a></div>
+        <div class="menu">
+          <div class="menu-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <ul>
+              <li><a href="#about-me" onclick="toggleMenu()">About</a></li>
+              <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+              <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+              <li><a href="#contact-me" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="details">
-            <div class="photo">
-                <img src="Ayush_Dwivedi_image.png" alt="Image Not Found">
-            </div>
-            <div class="intro">
-                <p>Hello, I'm</p>
-                <h1>Ayush Dwivedi</h1>
-                <p style="font-size: 1.75rem;">Frontend Developer</p>
-                <button class="intro-button1" onclick="window.open('./AyushCv.pdf','_blank');">Download CV</button>
-                <button  class="intro-button2" onclick="window.location.href='./#contact-me';" >Contact Info</button>
-                <a href="https://www.linkedin.com/in/ayushd100/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/AyushDwivedi100?tab=repositories"><i class="fa-brands fa-github"></i></a>
-            </div>
+      </div>
+      <div class="details">
+        <div class="photo">
+          <img src="Ayush_Dwivedi_image.png" alt="Image Not Found" />
         </div>
+        <div class="intro">
+          <p>Hello, I'm</p>
+          <h1>Ayush Dwivedi</h1>
+          <p style="font-size: 1.75rem">Frontend Developer</p>
+          <div class="button-container">
+            <button
+              class="intro-button1"
+              onclick="window.open('./AyushCv.pdf','_blank');"
+            >
+              Download CV
+            </button>
+            <button
+              class="intro-button2"
+              onclick="window.location.href='./#contact-me';"
+            >
+              Contact Info
+            </button>
+          </div>
+          <div class="logo-container">
+            <a href="https://www.linkedin.com/in/ayushd100/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/AyushDwivedi100?tab=repositories"
+              style="margin-left: 2rem"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="about-me" id="about-me">
       <div class="about-me-header">
@@ -98,129 +118,165 @@
       </div>
     </div>
     <div class="skills" id="skills">
-        <div class="skills-header">
-            <p>Explore My</p>
-            <h1>Skills</h1>
+      <div class="skills-header">
+        <p>Explore My</p>
+        <h1>Skills</h1>
+      </div>
+      <div class="skills-card-container">
+        <div class="skills-card-container-currently-practicing-languages">
+          <h1>Currently Practising Languages</h1>
+          <article>
+            <h3><i class="fa-solid fa-circle-check"></i> HTML</h3>
+            <p>Intermediate</p>
+          </article>
+          <article>
+            <h3><i class="fa-solid fa-circle-check"></i> CSS</h3>
+            <p>Intermediate</p>
+          </article>
+          <article>
+            <h3><i class="fa-solid fa-circle-check"></i> JAVASCRIPT</h3>
+            <p>Basic</p>
+          </article>
+          <article>
+            <h3><i class="fa-solid fa-circle-check"></i> MySQL</h3>
+            <p>Intermediate</p>
+          </article>
+          <article>
+            <h3><i class="fa-solid fa-circle-check"></i> Python</h3>
+            <p>Intermediate</p>
+          </article>
         </div>
-        <div class="skills-card-container">
-            <div class="skills-card-container-currently-practicing-languages">
-                <h1>Currently Practising Languages</h1>
-                <article>
-                    <h3><i class="fa-solid fa-circle-check"></i> HTML</h3>
-                    <p>Intermediate</p>
-                </article>
-                <article>
-                    <h3><i class="fa-solid fa-circle-check"></i> CSS</h3>
-                    <p>Intermediate</p>
-                </article>
-                <article>
-                    <h3><i class="fa-solid fa-circle-check"></i> JAVASCRIPT</h3>
-                    <p>Basic</p>
-                </article>
-                <article>
-                    <h3><i class="fa-solid fa-circle-check"></i> MySQL</h3>
-                    <p>Intermediate</p>
-                </article>
-                <article>
-                    <h3><i class="fa-solid fa-circle-check"></i> Python</h3>
-                    <p>Intermediate</p>
-                </article>
-            </div>
-            <div class="skills-card-container-currently-practicing-tools">
-                <h1>Currently Practising Tools</h1>
-                <article>
-                    <h3><i class="fa-solid fa-circle-check"></i> Git</h3>
-                    <p>Intermediate</p>
-                </article>
-                <article>
-                    <h3><i class="fa-solid fa-circle-check"></i> GitHub</h3>
-                    <p>Intermediate</p>
-                </article>
-                <article style="grid-column:1/-1; padding-right: 23%;">
-                    <h3><i class="fa-solid fa-circle-check"></i> Visual Studio Code</h3>
-                    <p>Experienced</p>
-                </article>
-            </div>
+        <div class="skills-card-container-currently-practicing-tools">
+          <h1>Currently Practising Tools</h1>
+          <article>
+            <h3><i class="fa-solid fa-circle-check"></i> Git</h3>
+            <p>Intermediate</p>
+          </article>
+          <article>
+            <h3><i class="fa-solid fa-circle-check"></i> GitHub</h3>
+            <p>Intermediate</p>
+          </article>
+          <article style="grid-column: 1/-1; padding-right: 23%">
+            <h3><i class="fa-solid fa-circle-check"></i> Visual Studio Code</h3>
+            <p>Experienced</p>
+          </article>
         </div>
-        <div class="skills-learning-card">
-            <h1>Currently Learning</h1>
-            <article>
-                <h3 styles="padding-left:0.5rem;"><i class="fa-solid fa-circle-check"></i> React</h3>
-            </article>
-            <article>
-                <h3><i class="fa-solid fa-circle-check"></i> Node.js</h3>
-            </article>
-            <article>
-                <h3><i class="fa-solid fa-circle-check"></i> Express.js</h3>
-            </article>
-            <article>
-                <h3><i class="fa-solid fa-circle-check"></i> MongoDB</h3>
-            </article>
-            <article>
-                <h3><i class="fa-solid fa-circle-check"></i> TypeScript</h3>
-            </article>
-            <article>
-                <h3><i class="fa-solid fa-circle-check"></i> Tailwind CSS</h3>
-            </article>
-        </div>
+      </div>
+      <div class="skills-learning-card">
+        <h1>Currently Learning</h1>
+        <article>
+          <h3 styles="padding-left:0.5rem;">
+            <i class="fa-solid fa-circle-check"></i> React
+          </h3>
+        </article>
+        <article>
+          <h3><i class="fa-solid fa-circle-check"></i> Node.js</h3>
+        </article>
+        <article>
+          <h3><i class="fa-solid fa-circle-check"></i> Express.js</h3>
+        </article>
+        <article>
+          <h3><i class="fa-solid fa-circle-check"></i> MongoDB</h3>
+        </article>
+        <article>
+          <h3><i class="fa-solid fa-circle-check"></i> TypeScript</h3>
+        </article>
+        <article>
+          <h3><i class="fa-solid fa-circle-check"></i> Tailwind CSS</h3>
+        </article>
+      </div>
     </div>
-    <div id="projects"class="projects">
-        <div class="projects-header">
-            <p>Browse My Recent</p>
-            <h1>Projects</h1>
+    <div id="projects" class="projects">
+      <div class="projects-header">
+        <p>Browse My Recent</p>
+        <h1>Projects</h1>
+      </div>
+      <div class="projects-content">
+        <div class="projects-content-card">
+          <div class="projects-content-card-image-container1"></div>
+          <h2>Portfolio Website</h2>
+          <button
+            onclick="window.open('https://github.com/AyushDwivedi100/Portfolio','_blank');"
+          >
+            GitHub
+          </button>
+          <button
+            onclick="window.open('https://ayushdwivedi100.github.io/Portfolio/','_blank');"
+          >
+            Live Demo
+          </button>
         </div>
-        <div class="projects-content">
-            <div class="projects-content-card">
-                <div class="projects-content-card-image-container1"></div>
-                <h2>Portfolio Website</h2>
-                <button onclick="window.open('https://github.com/AyushDwivedi100/Portfolio','_blank');">GitHub</button>
-                <button onclick="window.open('https://ayushdwivedi100.github.io/Portfolio/','_blank');">Live Demo</button>
-            </div>
-            <div class="projects-content-card">
-                <div class="projects-content-card-image-container2"></div>
-                <h2>Portfolio Website</h2>
-                <button onclick="window.open('https://github.com/AyushDwivedi100/AmazonUIClone','_blank');">GitHub</button>
-                <button onclick="window.open('https://ayushdwivedi100.github.io/AmazonUIClone/');">Live Demo</button>
-            </div>
-            <div class="projects-content-card">
-                <div class="projects-content-card-image-container3"></div>
-                <h2>Portfolio Website</h2>
-                <button>GitHub</button>
-                <button>Live Demo</button>
-            </div>
+        <div class="projects-content-card">
+          <div class="projects-content-card-image-container2"></div>
+          <h2>Portfolio Website</h2>
+          <button
+            onclick="window.open('https://github.com/AyushDwivedi100/AmazonUIClone','_blank');"
+          >
+            GitHub
+          </button>
+          <button
+            onclick="window.open('https://ayushdwivedi100.github.io/AmazonUIClone/');"
+          >
+            Live Demo
+          </button>
         </div>
+        <div class="projects-content-card">
+          <div class="projects-content-card-image-container3"></div>
+          <h2>Portfolio Website</h2>
+          <button>GitHub</button>
+          <button>Live Demo</button>
+        </div>
+      </div>
     </div>
-    <div id="contact-me"class="contact-me">
-        <div class="contact-me-header">
-            <p>Let's Connect</p>
-            <h1>Contact Me</h1>
+    <div id="contact-me" class="contact-me">
+      <div class="contact-me-header">
+        <p>Let's Connect</p>
+        <h1>Contact Me</h1>
+      </div>
+      <div class="contact-me-links">
+        <div class="contact-me-links-container">
+          <article>
+            <h3>
+              <i class="fa-solid fa-envelope"></i>&nbsp;<a
+                href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJQwtCwbLggfDgPGDKRCLLXLGKkbfMHJMgLHnZMfTKxnKjdCdcwQVcJCcNvWpcHjQxcG"
+                target="_blank"
+                >ayushd100@gmail.com</a
+              >
+            </h3>
+          </article>
+          <article>
+            <h3>
+              <i class="fa-brands fa-whatsapp"></i>&nbsp;<a
+                href="https://web.whatsapp.com"
+                target="_blank"
+                >+91 8527634265</a
+              >
+            </h3>
+          </article>
+          <article>
+            <h3>
+              <i class="fa-brands fa-linkedin"></i>&nbsp;<a
+                href="https://www.linkedin.com/in/ayushd100/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </h3>
+          </article>
         </div>
-        <div class="contact-me-links">
-            <div class="contact-me-links-container">
-                <article>
-                    <h3><i class="fa-solid fa-envelope"></i>&nbsp;<a href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJQwtCwbLggfDgPGDKRCLLXLGKkbfMHJMgLHnZMfTKxnKjdCdcwQVcJCcNvWpcHjQxcG" target="_blank">ayushd100@gmail.com</a></h3>
-                </article>
-                <article>
-                    <h3><i class="fa-brands fa-whatsapp"></i>&nbsp;<a href="https://web.whatsapp.com" target="_blank">+91 8527634265</a></h3>
-                </article>
-                <article>
-                    <h3><i class="fa-brands fa-linkedin"></i>&nbsp;<a href="https://www.linkedin.com/in/ayushd100/" target="_blank">LinkedIn</a></h3>
-                </article>
-            </div>
+      </div>
+      <div class="contact-me-nav">
+        <div class="nav">
+          <ul style="justify-content: center; padding: 0rem 13rem">
+            <li><a href="#front-page">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
         </div>
-        <div class="contact-me-nav">
-            <div class="nav">
-                <ul style="justify-content: center; padding: 0rem 13rem;">
-                    <li><a href="#front-page">Home</a></li>
-                    <li><a href="#about-me">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="contact-me-footer">
-            <p>Copyright © 2025 Ayush Dwivedi. All Rights Reserved</p>
-        </div>
+      </div>
+      <div class="contact-me-footer">
+        <p>Copyright © 2025 Ayush Dwivedi. All Rights Reserved</p>
+      </div>
     </div>
     <script src="app.js"></script>
   </body>
