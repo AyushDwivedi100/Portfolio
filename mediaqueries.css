@@ -81,4 +81,26 @@
     top: 25%;
     right: 38%;
   }
+  .about-me-header{
+    margin-top:10vh;
+  }
+  .about-me-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-me-image{
+    display: flex;
+    justify-content: center;
+  }
+  .about-me-info-card-container{
+    padding: 3rem;
+  }
+  .about-me-info-detail{
+    padding: 0 5rem;
+  }
+  .about-me-info-detail p{
+    text-align: justify;
+  }
 }
