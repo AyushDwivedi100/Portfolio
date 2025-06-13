@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
   .navbar {
     display: none;
   }
@@ -121,5 +124,17 @@
   }
   .skills-learning-card article{
     padding:2rem;
+  }
+  .projects{
+    display:flex;
+    flex-direction:column;
+  }
+  .projects-header{
+    margin-top:10vh;
+  }
+  .projects-content{
+    display: flex;
+    flex-direction: column;
+
   }
 }
