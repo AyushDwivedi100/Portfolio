@@ -1,5 +1,6 @@
 @media (max-width: 768px) {
     body{
+
         overflow-x: hidden;
     }
   .navbar {
@@ -18,7 +19,6 @@
   .menu-icon {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: end;
     gap: 0.3rem;
     cursor: pointer;
@@ -47,7 +47,7 @@
     display: inline-block;
     position: absolute;
     top: 17%;
-    right: 7%;
+    right: 0%;
     box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1), -10px -10px 10px white;
   }
   .menu-links ul {
@@ -135,6 +135,23 @@
   .projects-content{
     display: flex;
     flex-direction: column;
-
+  }
+  .contact-me{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-me-header{
+    margin-top:10vh;
+  }
+  .contact-me-links{
+    padding:3rem;
+  }
+  .contact-me-links-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact-me-nav,
+  .contact-me-footer{
+    margin-top:10vh;
   }
 }
