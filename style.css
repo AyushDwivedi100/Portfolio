@@ -277,6 +277,7 @@ body {
 .skills-learning-card h1 {
   grid-column: 1 / -1;
   color: grey;
+  justify-self: center;
 }
 .skills-learning-card article {
   align-items: center;
