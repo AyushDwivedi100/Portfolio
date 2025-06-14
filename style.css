@@ -207,7 +207,7 @@ body {
   padding: 0rem 13rem 0rem 4rem;
   font-size: 1.2rem;
   color: grey;
-  text-align:justify;
+  text-align: justify;
 }
 .skills {
   height: 100vh;
@@ -347,12 +347,12 @@ body {
 }
 .contact-me {
   display: grid;
-  grid-template-rows: repeat(4,auto);
+  grid-template-rows: repeat(4, auto);
   grid-template-columns: 1fr;
   justify-content: center;
 }
 .contact-me-header {
-    height: 35vh;
+  height: 35vh;
   justify-items: center;
   align-content: flex-end;
 }
@@ -364,11 +364,11 @@ body {
   color: grey;
 }
 .contact-me-links {
-    height: 45vh;
+  height: 45vh;
   justify-items: center;
 }
-.contact-me-nav{
-    height: 10vh;
+.contact-me-nav {
+  height: 10vh;
 }
 .contact-me-links-container {
   display: flex;
@@ -396,10 +396,10 @@ body {
   cursor: pointer;
 }
 .contact-me-footer {
-    height: 10vh;
+  height: 10vh;
   justify-items: center;
 }
-.footer-nav ul{
+.footer-nav ul {
   justify-content: center;
   padding: 0rem 13rem;
 }
