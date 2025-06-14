@@ -133,6 +133,7 @@
   .contact-me {
     display: flex;
     flex-direction: column;
+    max-width: 100vw;
   }
   .contact-me-header {
     margin-top: 10vh;
