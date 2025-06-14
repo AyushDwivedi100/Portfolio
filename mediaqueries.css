@@ -75,6 +75,9 @@
     width: 100vw;
     justify-items: center;
   }
+  .about-me{
+    height: auto;
+  }
   .about-me-header {
     margin-top: 10vh;
   }
@@ -219,7 +222,6 @@
   .about-me-header {
     padding: 1rem;
     width: 100vw;
-    margin: 0;
     max-height: 15vh;
     align-self: center;
   }
@@ -334,6 +336,10 @@
   .skills-card-container-currently-practicing-tools article {
     padding: 1rem;
   }
+  .photo.open {
+    transform: translateX(-15%);
+    opacity: 0.8;
+  }
 }
 @media (max-width: 321px) {
   .skills-card-container-currently-practicing-languages article,
@@ -362,5 +368,12 @@
   }
   .about-me-info-card-container h2 {
     font-size: 1.2rem;
+  }
+  .photo.open {
+    transform: translateX(-20%);
+    opacity: 0.8;
+  }
+  .menu{
+    padding: 0;
   }
 }
