@@ -399,3 +399,7 @@ body {
     height: 10vh;
   justify-items: center;
 }
+.footer-nav ul{
+  justify-content: center;
+  padding: 0rem 13rem;
+}

@@ -7,7 +7,7 @@
   }
   .small-navbar {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
   }
   .menu {
     display: flex;
@@ -120,6 +120,7 @@
   .skills-learning-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: left;
   }
   .skills-learning-card article {
     padding: 2rem;
@@ -248,59 +249,121 @@
     font-size: 0.88rem;
     text-align: justify;
   }
-  .skills{
-    display:grid;
+  .skills {
+    display: grid;
     grid-template-rows: auto auto auto;
     height: auto;
   }
-  .skills-header{
-    padding:1rem;
-    margin:0;
-    max-height: 15vh;
+  .skills-header {
+    padding: 1rem;
   }
-  .skills-header h1{
+  .skills-header h1 {
     font-size: 2.5rem;
   }
-  .skills-card-container{
-    padding:1rem;
+  .skills-card-container {
+    padding: 1rem;
   }
-  .skills-learning-card{
-    margin:0rem 1rem;
+  .skills-learning-card {
+    margin: 0rem 1rem;
   }
-  .skills-learning-card article{
-    padding:1rem;
+
+  .skills-learning-card h1 {
+    padding: 1rem;
+    font-size: 1.5rem;
+    justify-self: center;
+  }
+  .skills-learning-card article {
+    padding: 1rem;
   }
   .skills-card-container-currently-practicing-languages h1,
-  .skills-card-container-currently-practicing-tools h1{
-    font-size:1rem;
+  .skills-card-container-currently-practicing-tools h1 {
+    font-size: 1.5rem;
+    justify-self: center;
+    padding: 1rem 0rem;
   }
-  .skills-card-container-currently-practicing-languages h3,
-  .skills-card-container-currently-practicing-tools h3{
-    font-size:1rem;
+  .skills-card-container-currently-practicing-languages h3 {
+    font-size: 1rem;
   }
   .skills-card-container-currently-practicing-tools {
     grid-template-rows: auto;
   }
-  .projects{
+  .projects {
     width: 100vw;
   }
-  .projects-header{
-    padding:1rem;
-    margin:0;
+  .projects-header {
+    padding: 1rem;
     max-height: 15vh;
   }
-  .projects-content{
+  .projects-content {
     padding: 2rem;
   }
-  .contact-me-header{
-    padding:1rem;
-    margin:0;
-    max-height: 15vh;
+  .contact-me-header {
+    padding: 1rem;
+    margin: 0;
   }
-  .contact-me{
+  .contact-me {
     width: 100vw;
   }
-  .contact-me-links{
+  .contact-me-links {
     padding: 1rem;
+  }
+  .contact-me-links-container {
+    padding: 0;
+    gap: 0;
+  }
+  .contact-me-links-container article {
+    padding: 0rem 1rem;
+  }
+  .contact-me-links-container h3 {
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+  }
+}
+@media (max-width: 376px) {
+  .projects button {
+    width: 7rem;
+  }
+  .projects-content-card h2 {
+    padding: 1rem 0rem;
+  }
+  .nav ul {
+    padding: 0rem 3rem;
+    gap: 1rem;
+  }
+  .contact-me-footer p {
+    text-align: center;
+  }
+  .skills-card-container-currently-practicing-languages article,
+  .skills-card-container-currently-practicing-tools article {
+    padding: 1rem;
+  }
+}
+@media (max-width: 321px) {
+  .skills-card-container-currently-practicing-languages article,
+  .skills-card-container-currently-practicing-tools article {
+    padding: 0.7rem;
+  }
+  .projects-content {
+    padding: 1rem;
+  }
+  .projects-content-card {
+    padding: 1rem 0.5rem;
+  }
+  .skills-learning-card h3 {
+    font-size: 1rem;
+  }
+  .skills-learning-card article {
+    padding: 0.7rem 0.6rem;
+  }
+  .contact-me-links-container h3,
+  .contact-me-links-container a {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .nav a {
+    font-size: 1.2rem;
+  }
+  .about-me-info-card-container h2 {
+    font-size: 1.2rem;
   }
 }
