@@ -377,3 +377,12 @@
     padding: 0;
   }
 }
+@media (max-width:652px){
+  .photo.open {
+    transform: translateX(-10%);
+    opacity: 0.8;
+  }
+  .photo{
+    transition:all 300ms ease;
+  }
+}
