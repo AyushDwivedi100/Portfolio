@@ -195,6 +195,7 @@ body {
   justify-items: center;
   box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1), -10px -10px 10px white;
   background-color: whitesmoke;
+  text-align: center;
 }
 .about-me-info-card-container-experience-card p,
 .about-me-info-card-container-education-card p {
